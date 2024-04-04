@@ -5,7 +5,7 @@ FROM adoptopenjdk/openjdk11:alpine
 WORKDIR /app
 
 # Copy the packaged JAR file into the container at /app
-COPY target/SpringBoot-BookApplication-Demo.jar /app/SpringBoot-BookApplication-Demo.jar
+COPY target/demo-0.0.1-SNAPSHOT.jar /app/demo-0.0.1-SNAPSHOT.jar
 
 # Specify the command to run your application
-CMD ["java", "-jar", "SpringBoot-BookApplication-Demo.jar"]
+CMD ["java", "-jar", "demo-0.0.1-SNAPSHOT.jar"]
