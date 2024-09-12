@@ -16,6 +16,10 @@ This repository contains the code for building a container using Docker.
 3. Create a .dockerignore file to exclude unnecessary files
 4. Build the container using `docker build -t myimage https://github.com/chvishalparmar/SpringBoot-BookApplication-Demo.git`
 
+## Runing the Container 
+
+1. Run Container using `docker run -d -p 9999:9999 --name spring-boot-container myimage`
+
 ## Pushing the Container to Docker Hub
 
 1. Create a Docker Hub account
